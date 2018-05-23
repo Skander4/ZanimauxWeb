@@ -7,13 +7,13 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Z'animaux</title>
-    <link href=" {{ asset('css/bootstrap.css')}}" rel='stylesheet' type='text/css' />
+    <title>Pakhi an E-Commerce online Shopping Category Flat Bootstarp responsive Website Template| Single :: w3layouts</title>
+    <link href="{{ asset('css/bootstrap.css')  }}" rel='stylesheet' type='text/css' />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src=" {{ asset('js/jquery.min.js')}}"></script>
+    <script src="{{ asset('js/jquery.min.js')  }}"></script>
     <!-- Custom Theme files -->
-    <link href=" {{ asset('css/style.css')}}" rel="stylesheet" type="text/css" media="all" />
-    <link href=" {{ asset('css/form.css')}}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/style.css')  }}" rel="stylesheet" type="text/css" media="all" />
+    <link href="{{ asset('css/form.css')  }}" rel="stylesheet" type="text/css" media="all" />
     <!-- Custom Theme files -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
@@ -23,11 +23,11 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <!--webfont-->
     <link href='http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900,100italic,300italic,400italic,700italic,900italic' rel='stylesheet' type='text/css'>
     <!-- dropdown -->
-    <script src=" {{ asset('js/jquery.easydropdown.js')}}"></script>
-    <link href=" {{ asset('css/nav.css')}}')}}" rel="stylesheet" type="text/css" media="all"/>
-    <script type="text/javascript" src=" {{ asset('js/hover_pack.js')}}"></script>
-    <link rel="stylesheet" href=" {{ asset('css/etalage.css')}}">
-    <script src=" {{ asset('js/jquery.etalage.min.js')}}"></script>
+    <script src="{{ asset('js/jquery.easydropdown.js')  }}"></script>
+    <link href="{{ asset('css/nav.css')  }}" rel="stylesheet" type="text/css" media="all"/>
+    <script type="text/javascript" src="{{ asset('js/hover_pack.js')  }}"></script>
+    <link rel="stylesheet" href="{{ asset('css/etalage.css')  }}">
+    <script src="{{ asset('js/jquery.etalage.min.js')  }}"></script>
     <script>
         jQuery(document).ready(function($){
 
@@ -60,28 +60,19 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
     <div class="top-header">
         <div class="container">
             <div class="logo">
-                <a href=" {{ asset('index.html')}}"><img src=" {{ asset('images/logo.png')}}" alt="" /></a>
+                <a href="index.html"><img src="{{ asset('images/logo.png')  }}" alt="" /></a>
             </div>
             <div class="header-top-right">
-                <!-- start search-->
-                <div class="search-box">
-                    <div id="sb-search" class="sb-search">
-                        <form>
-                            <input class="sb-search-input" placeholder="Enter your search term..." type="search" name="search" id="search">
-                            <input class="sb-search-submit" type="submit" value="">
-                            <span class="sb-icon-search"> </span>
-                        </form>
-                    </div>
-                </div>
+
                 <!-- search-scripts -->
-                <script src=" {{ asset('js/classie.js')}}"></script>
-                <script src=" {{ asset('js/uisearch.js')}}"></script>
+                <script src="{{ asset('js/classie.js')  }}"></script>
+                <script src="{{ asset('js/uisearch.js')  }}"></script>
                 <script>
                     new UISearch( document.getElementById( 'sb-search' ) );
                 </script>
                 <!-- //search-scripts -->
 
-                <a href=" {{ asset('cart.html')}}"><i class="cart"></i></a>
+                <a href="cart.html"><i class="cart"></i></a>
             </div>
             <div class="navigation">
                 <div>
@@ -90,20 +81,18 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                     </label>
                     <input id="mobile_menu" type="checkbox">
                     <ul class="nav">
-                        <li class="active"><a href="{{ asset('index.html')  }}">Home</a></li>
-                        <li class="dropdown1"><a href="#">Dresses</a>
+                        <li class="active"><a href="index.html">Home</a></li>
+                        <li class="dropdown1"><a href="#">Boutique</a>
                             <ul class="dropdown2">
-                                <li><a href="{{ asset('products.html.twig')  }}">Dress Materials</a></li>
-                                <li><a href="{{ asset('products.html.twig')  }}">Kurta & Kurti</a></li>
-                                <li><a href="{{ asset('products.html.twig')  }}">Sarees</a></li>
-                                <li><a href="{{ asset('products.html.twig')  }}">Chudidars</a></li>
+                                <li><a href="products.html">Accessoires</a></li>
+                                <li><a href="products.html">Nuttritions</a></li>
+                                <li><a href="products.html">Médicaments</a></li>
                             </ul>
                         </li>
-                        <li class="dropdown1"><a href="#">Bags</a>
+                        <li class="dropdown1"><a href="#">Santé & Bien-être</a>
                             <ul class="dropdown2">
-                                <li><a href="{{ asset('products.html.twig')  }}">Latest</a></li>
-                                <li><a href="{{ asset('products.html.twig')  }}">Leather Bags</a></li>
-                                <li><a href="{{ asset('products.html.twig')  }}">Hand Bags</a></li>
+                                <li><a href="products.html">Suivi santé</a></li>
+                                <li><a href="products.html">Evenements</a></li>
                             </ul>
                         </li>
                         </li>
@@ -113,10 +102,9 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                                 <li><a href="{{ path('adherer')  }}">Adherer un animal</a></li>
                                 <li><a href="{{ path('client_animal')  }}">Votre Bull</a></li>
                                 <li><a href="{{ path('refuge')  }}">Trouvez un Refuge</a></li>
-                                <li><a href="">Forum</a></li>
                             </ul>
                         </li>
-                        <li><a href="{{ asset('contact.html')  }}">Contact US</a></li>
+                        <li><a href="contact.html">Passer une réclamation</a></li>
                         <div class="clearfix"></div>
                     </ul>
                 </div>
@@ -138,7 +126,7 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
                 Sales
             </li>&nbsp;
             <span>&gt;</span>
-            <li>products</a></li>
+            <li>products</li>
         </ul>
         <ul class="previous">
             <li><a href=" {{ asset('index.html')}}">Back to Previous Page</a></li>
